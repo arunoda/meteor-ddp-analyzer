@@ -1,5 +1,6 @@
 {
   "name": "ddp-analyzer",
+  "description": "Very Simple DDP Proxy which logs DDP messages",
   "version": "0.1.2",
   "dependencies": {
     "http-proxy": "0.10.x",
