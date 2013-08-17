@@ -7,5 +7,10 @@
   },
   "bin": {
     "ddp-analyzer-proxy": "./bin/ddp-proxy"
+  },
+  "author": "Arunoda Susiripala <arunoda.susiripala@gmail.com>",
+  "repository": {
+    "type": "git",
+    "url": "git://github.com/arunoda/meteor-ddp-analyzer.git"
   }
 }
