@@ -2,7 +2,7 @@
 
 ### Very Simple DDP Proxy which logs DDP messages
 
-> Only for debugging purpose, useful if only used with single client
+> Only for debugging purpose, useful if only used with a single client
 
 ## Installation
 
