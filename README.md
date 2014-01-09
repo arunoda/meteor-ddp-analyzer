@@ -16,10 +16,14 @@
 
 ## Start Meteor App
 
-Yo need to start your Meteor App with few configurations
+You need to either start your Meteor App with few configurations
 
-    export DISABLE_WEBSOCKETS=true
     export DDP_DEFAULT_CONNECTION_URL=http://localhost:3030
     meteor
+
+or just open `http://localhost:3030` from browser. If neither works, try disabling
+WebSockets by adding the following configuration:
+
+    export DISABLE_WEBSOCKETS=true
 
 Now, open your app in the browser and you'll see DDP logs dumped by `ddp-analyzer-proxy`
