@@ -2,6 +2,8 @@
 
 ### Very Simple DDP Proxy which logs DDP messages
 
+#### Read more on: [Discover Meteor DDP in Realtime](http://meteorhacks.com/discover-meteor-ddp-in-realtime.html)
+
 > Only for debugging purpose, useful if only used with a single client
 
 ## Installation
