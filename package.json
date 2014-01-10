@@ -3,13 +3,21 @@
   "description": "Very Simple DDP Proxy which logs DDP messages",
   "version": "0.1.4",
   "dependencies": {
-    "http-proxy": "0.10.x",
-    "commander": "2.x"
+    "http-proxy": "git://github.com/nodejitsu/node-http-proxy#caronte",
+    "commander": "2.x",
+    "sockjs": "0.3.8",
+    "sockjs-client": "0.1.3",
+    "colors": "0.6.x"
   },
   "bin": {
     "ddp-analyzer-proxy": "./bin/ddp-proxy"
   },
   "author": "Arunoda Susiripala <arunoda.susiripala@gmail.com>",
+  "contributors": [
+    { "name": "Egor Suvorov"
+    , "url": "https://github.com/yeputons/"
+    }
+  ],
   "repository": {
     "type": "git",
     "url": "git://github.com/arunoda/meteor-ddp-analyzer.git"
