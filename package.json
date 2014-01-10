@@ -1,7 +1,7 @@
 {
   "name": "ddp-analyzer",
   "description": "Very Simple DDP Proxy which logs DDP messages",
-  "version": "0.2.0",
+  "version": "0.2.1",
   "dependencies": {
     "http-proxy": "git://github.com/nodejitsu/node-http-proxy#caronte",
     "commander": "2.x",
