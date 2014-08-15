@@ -24,3 +24,7 @@ You need to either start your Meteor App with few configurations
 or just open `http://localhost:3030` from browser.
 
 Now, open your app in the browser and you'll see DDP logs dumped by `ddp-analyzer-proxy`
+
+## Known Issues
+
+DDP Analyzer currently does not work with WebSockets but instead uses Meteors HTTP based fallback while active. Pull requests adding proper WebSocket support are welcome!
